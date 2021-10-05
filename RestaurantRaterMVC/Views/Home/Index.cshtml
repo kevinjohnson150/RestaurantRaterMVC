@@ -3,9 +3,13 @@
 }
 
 <div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+    <h1>Restaurant Rater</h1>
+    <p class="lead">Restaurant Rater is a simple app powered by ASP.NET Web MVC that allows users to come in and record different restaurants and rate them.</p>
+    
+    <p>
+        @Html.ActionLink("Learn More", "About", null, new {@class = "btn btn-primary btn-lg"})
+    </p>
+
 </div>
 
 <div class="row">
